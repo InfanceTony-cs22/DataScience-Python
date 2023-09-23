@@ -16,7 +16,7 @@ young_employees = data[data['Age'] < 30]
 print("\nYoung employees:")
 print(young_employees)
 
-# Group and aggregate data
+# Group and aggregate datA
 average_salary_by_age = data.groupby('Age')['Salary'].mean()
 print("\nAverage salary by age:")
 print(average_salary_by_age)
