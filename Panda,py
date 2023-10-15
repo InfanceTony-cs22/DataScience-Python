@@ -28,7 +28,7 @@ young_employees = df[df['Age'] < 30]
 print(young_employees)
 print()
 
-# Grouping and aggregation
+# Grouping and aggregation.
 print("Grouping and Aggregation:")
 average_salary_by_age = df.groupby('Age')['Salary'].mean()
 print(average_salary_by_age)
